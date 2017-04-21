@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F280856A1EA9BB830047A59F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F28085691EA9BB830047A59F /* main.m */; };
+		F280856D1EA9BB830047A59F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F280856C1EA9BB830047A59F /* AppDelegate.m */; };
+		F28085701EA9BB830047A59F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F280856F1EA9BB830047A59F /* ViewController.m */; };
+		F28085731EA9BB830047A59F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28085711EA9BB830047A59F /* Main.storyboard */; };
+		F28085751EA9BB830047A59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28085741EA9BB830047A59F /* Assets.xcassets */; };
+		F28085781EA9BB830047A59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28085761EA9BB830047A59F /* LaunchScreen.storyboard */; };
+		F28085831EA9BB830047A59F /* gitlessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F28085821EA9BB830047A59F /* gitlessTests.m */; };
+		F280858E1EA9BB830047A59F /* gitlessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F280858D1EA9BB830047A59F /* gitlessUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F280857F1EA9BB830047A59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F280855D1EA9BB830047A59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F28085641EA9BB830047A59F;
+			remoteInfo = gitless;
+		};
+		F280858A1EA9BB830047A59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F280855D1EA9BB830047A59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F28085641EA9BB830047A59F;
+			remoteInfo = gitless;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F28085651EA9BB830047A59F /* gitless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28085691EA9BB830047A59F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F280856B1EA9BB830047A59F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F280856C1EA9BB830047A59F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F280856E1EA9BB830047A59F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F280856F1EA9BB830047A59F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F28085721EA9BB830047A59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F28085741EA9BB830047A59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F28085771EA9BB830047A59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F28085791EA9BB830047A59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F280857E1EA9BB830047A59F /* gitlessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitlessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28085821EA9BB830047A59F /* gitlessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitlessTests.m; sourceTree = "<group>"; };
+		F28085841EA9BB830047A59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28085891EA9BB830047A59F /* gitlessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitlessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F280858D1EA9BB830047A59F /* gitlessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitlessUITests.m; sourceTree = "<group>"; };
+		F280858F1EA9BB830047A59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28085621EA9BB830047A59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F280857B1EA9BB830047A59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28085861EA9BB830047A59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F280855C1EA9BB830047A59F = {
+			isa = PBXGroup;
+			children = (
+				F28085671EA9BB830047A59F /* gitless */,
+				F28085811EA9BB830047A59F /* gitlessTests */,
+				F280858C1EA9BB830047A59F /* gitlessUITests */,
+				F28085661EA9BB830047A59F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F28085661EA9BB830047A59F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28085651EA9BB830047A59F /* gitless.app */,
+				F280857E1EA9BB830047A59F /* gitlessTests.xctest */,
+				F28085891EA9BB830047A59F /* gitlessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28085671EA9BB830047A59F /* gitless */ = {
+			isa = PBXGroup;
+			children = (
+				F280856B1EA9BB830047A59F /* AppDelegate.h */,
+				F280856C1EA9BB830047A59F /* AppDelegate.m */,
+				F280856E1EA9BB830047A59F /* ViewController.h */,
+				F280856F1EA9BB830047A59F /* ViewController.m */,
+				F28085711EA9BB830047A59F /* Main.storyboard */,
+				F28085741EA9BB830047A59F /* Assets.xcassets */,
+				F28085761EA9BB830047A59F /* LaunchScreen.storyboard */,
+				F28085791EA9BB830047A59F /* Info.plist */,
+				F28085681EA9BB830047A59F /* Supporting Files */,
+			);
+			path = gitless;
+			sourceTree = "<group>";
+		};
+		F28085681EA9BB830047A59F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F28085691EA9BB830047A59F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F28085811EA9BB830047A59F /* gitlessTests */ = {
+			isa = PBXGroup;
+			children = (
+				F28085821EA9BB830047A59F /* gitlessTests.m */,
+				F28085841EA9BB830047A59F /* Info.plist */,
+			);
+			path = gitlessTests;
+			sourceTree = "<group>";
+		};
+		F280858C1EA9BB830047A59F /* gitlessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F280858D1EA9BB830047A59F /* gitlessUITests.m */,
+				F280858F1EA9BB830047A59F /* Info.plist */,
+			);
+			path = gitlessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F28085641EA9BB830047A59F /* gitless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28085921EA9BB830047A59F /* Build configuration list for PBXNativeTarget "gitless" */;
+			buildPhases = (
+				F28085611EA9BB830047A59F /* Sources */,
+				F28085621EA9BB830047A59F /* Frameworks */,
+				F28085631EA9BB830047A59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gitless;
+			productName = gitless;
+			productReference = F28085651EA9BB830047A59F /* gitless.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F280857D1EA9BB830047A59F /* gitlessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28085951EA9BB830047A59F /* Build configuration list for PBXNativeTarget "gitlessTests" */;
+			buildPhases = (
+				F280857A1EA9BB830047A59F /* Sources */,
+				F280857B1EA9BB830047A59F /* Frameworks */,
+				F280857C1EA9BB830047A59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F28085801EA9BB830047A59F /* PBXTargetDependency */,
+			);
+			name = gitlessTests;
+			productName = gitlessTests;
+			productReference = F280857E1EA9BB830047A59F /* gitlessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F28085881EA9BB830047A59F /* gitlessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28085981EA9BB830047A59F /* Build configuration list for PBXNativeTarget "gitlessUITests" */;
+			buildPhases = (
+				F28085851EA9BB830047A59F /* Sources */,
+				F28085861EA9BB830047A59F /* Frameworks */,
+				F28085871EA9BB830047A59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F280858B1EA9BB830047A59F /* PBXTargetDependency */,
+			);
+			name = gitlessUITests;
+			productName = gitlessUITests;
+			productReference = F28085891EA9BB830047A59F /* gitlessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F280855D1EA9BB830047A59F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "FURUNDA-IOS002";
+				TargetAttributes = {
+					F28085641EA9BB830047A59F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F280857D1EA9BB830047A59F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F28085641EA9BB830047A59F;
+					};
+					F28085881EA9BB830047A59F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F28085641EA9BB830047A59F;
+					};
+				};
+			};
+			buildConfigurationList = F28085601EA9BB830047A59F /* Build configuration list for PBXProject "gitless" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F280855C1EA9BB830047A59F;
+			productRefGroup = F28085661EA9BB830047A59F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F28085641EA9BB830047A59F /* gitless */,
+				F280857D1EA9BB830047A59F /* gitlessTests */,
+				F28085881EA9BB830047A59F /* gitlessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F28085631EA9BB830047A59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28085781EA9BB830047A59F /* LaunchScreen.storyboard in Resources */,
+				F28085751EA9BB830047A59F /* Assets.xcassets in Resources */,
+				F28085731EA9BB830047A59F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F280857C1EA9BB830047A59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28085871EA9BB830047A59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28085611EA9BB830047A59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28085701EA9BB830047A59F /* ViewController.m in Sources */,
+				F280856D1EA9BB830047A59F /* AppDelegate.m in Sources */,
+				F280856A1EA9BB830047A59F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F280857A1EA9BB830047A59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28085831EA9BB830047A59F /* gitlessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28085851EA9BB830047A59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F280858E1EA9BB830047A59F /* gitlessUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F28085801EA9BB830047A59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F28085641EA9BB830047A59F /* gitless */;
+			targetProxy = F280857F1EA9BB830047A59F /* PBXContainerItemProxy */;
+		};
+		F280858B1EA9BB830047A59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F28085641EA9BB830047A59F /* gitless */;
+			targetProxy = F280858A1EA9BB830047A59F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F28085711EA9BB830047A59F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28085721EA9BB830047A59F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F28085761EA9BB830047A59F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28085771EA9BB830047A59F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F28085901EA9BB830047A59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F28085911EA9BB830047A59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F28085931EA9BB830047A59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gitless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = furunda.gitless;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F28085941EA9BB830047A59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gitless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = furunda.gitless;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F28085961EA9BB830047A59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gitlessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = furunda.gitlessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gitless.app/gitless";
+			};
+			name = Debug;
+		};
+		F28085971EA9BB830047A59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gitlessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = furunda.gitlessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gitless.app/gitless";
+			};
+			name = Release;
+		};
+		F28085991EA9BB830047A59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gitlessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = furunda.gitlessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gitless;
+			};
+			name = Debug;
+		};
+		F280859A1EA9BB830047A59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gitlessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = furunda.gitlessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gitless;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28085601EA9BB830047A59F /* Build configuration list for PBXProject "gitless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28085901EA9BB830047A59F /* Debug */,
+				F28085911EA9BB830047A59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28085921EA9BB830047A59F /* Build configuration list for PBXNativeTarget "gitless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28085931EA9BB830047A59F /* Debug */,
+				F28085941EA9BB830047A59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F28085951EA9BB830047A59F /* Build configuration list for PBXNativeTarget "gitlessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28085961EA9BB830047A59F /* Debug */,
+				F28085971EA9BB830047A59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F28085981EA9BB830047A59F /* Build configuration list for PBXNativeTarget "gitlessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28085991EA9BB830047A59F /* Debug */,
+				F280859A1EA9BB830047A59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F280855D1EA9BB830047A59F /* Project object */;
+}
