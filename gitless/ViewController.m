@@ -12,8 +12,6 @@
 
 @interface ViewController ()
 
-@property (nonatomic) int sum;
-
 @end
 
 @implementation ViewController
