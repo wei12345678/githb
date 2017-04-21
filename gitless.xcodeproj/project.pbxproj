@@ -15,6 +15,7 @@
 		F28085781EA9BB830047A59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28085761EA9BB830047A59F /* LaunchScreen.storyboard */; };
 		F28085831EA9BB830047A59F /* gitlessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F28085821EA9BB830047A59F /* gitlessTests.m */; };
 		F280858E1EA9BB830047A59F /* gitlessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F280858D1EA9BB830047A59F /* gitlessUITests.m */; };
+		F280859D1EA9D0160047A59F /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F280859C1EA9D0160047A59F /* oneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F28085891EA9BB830047A59F /* gitlessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitlessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F280858D1EA9BB830047A59F /* gitlessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitlessUITests.m; sourceTree = "<group>"; };
 		F280858F1EA9BB830047A59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F280859B1EA9D0160047A59F /* oneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
+		F280859C1EA9D0160047A59F /* oneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F280856C1EA9BB830047A59F /* AppDelegate.m */,
 				F280856E1EA9BB830047A59F /* ViewController.h */,
 				F280856F1EA9BB830047A59F /* ViewController.m */,
+				F280859B1EA9D0160047A59F /* oneViewController.h */,
+				F280859C1EA9D0160047A59F /* oneViewController.m */,
 				F28085711EA9BB830047A59F /* Main.storyboard */,
 				F28085741EA9BB830047A59F /* Assets.xcassets */,
 				F28085761EA9BB830047A59F /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				F28085701EA9BB830047A59F /* ViewController.m in Sources */,
 				F280856D1EA9BB830047A59F /* AppDelegate.m in Sources */,
 				F280856A1EA9BB830047A59F /* main.m in Sources */,
+				F280859D1EA9D0160047A59F /* oneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +515,7 @@
 				F28085941EA9BB830047A59F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F28085951EA9BB830047A59F /* Build configuration list for PBXNativeTarget "gitlessTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +524,7 @@
 				F28085971EA9BB830047A59F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F28085981EA9BB830047A59F /* Build configuration list for PBXNativeTarget "gitlessUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				F280859A1EA9BB830047A59F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
